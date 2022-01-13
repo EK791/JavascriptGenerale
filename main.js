@@ -128,6 +128,15 @@
 // }
 
 
+// let risultato = []
+// for (let recensore of recensori) {
+//     for (let voto of recensore.voti){
+//         risultato[risultato.length] = voto
+//     }
+// }
+// console.log(risultato)
+
+
 // let voti = []
 // let cont = 0
 // for (let i = 0; i < recensori.length; i++) {
@@ -139,12 +148,49 @@
 // console.log(voti)
 
 
-// let risultato = []
-// for (let recensore of recensori) {
-//     for (let voto of recensore.voti){
-//         risultato[risultato.length] = voto
+// let titoli = {}
+// let cont = 0
+// for (let i = 0; i < recensori.length; i++) {
+//     for (let m = 0; m < recensori[i].voti.length; m++) {
+//         if (!titoli[recensori[i].voti[m].title]) {
+//             titoli[recensori[i].voti[m].title] = 1;
+                       
+//             // titoli.totale = recensori[i].voti[m].voto
+//         } else {
+//             titoli[recensori[i].voti[m].title]++;
+            
+
+//             // titoli.totale = titoli.totale + recensori[i].voti[m].voto
+//         }
 //     }
 // }
-// console.log(risultato)
+// console.log(titoli)
 
+
+
+
+// let titoli = {}
+// let cont = 0
+// for (let i = 0; i < recensori.length; i++) {
+//     for (let m = 0; m < recensori[i].voti.length; m++) {
+//         if (!titoli[recensori[i].voti[m].title]) {
+//             titoli[recensori[i].voti[m].title] = 1;
+//             titoli.tot = 0
+            
+            
+//             // titoli.totale = recensori[i].voti[m].voto
+//         } else {
+//             titoli[recensori[i].voti[m].title]++;
+            
+            
+
+//             // titoli.totale = titoli.totale + recensori[i].voti[m].voto
+//         }
+//     }
+// }
+// console.log(titoli)
+
+
+
+   
 
